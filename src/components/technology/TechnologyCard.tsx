@@ -44,7 +44,7 @@ const TechnologyCard = ({
   onAdd,
 }: TechnologyCardProps) => {
   return (
-    <article className="flex min-h-[250px] flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-pink-600 hover:shadow-md">
+    <article className="flex min-h-62.5 flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-pink-600 hover:shadow-md">
       
       <div className="flex items-start justify-between">
         <div className="text-3xl">
@@ -60,7 +60,7 @@ const TechnologyCard = ({
         {technology.name}
       </h3>
 
-      <p className="mt-3 flex-grow text-sm leading-6 text-slate-500">
+      <p className="mt-3 grow text-sm leading-6 text-slate-500">
         {technology.description}
       </p>
 
