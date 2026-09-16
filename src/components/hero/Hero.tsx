@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="mt-8 flex gap-4">
               <a
                 href="#technologies"
-                className="rounded-lg bg-gradient-to-r from-orange-500 to-pink-500 px-6 py-3 text-sm font-semibold text-white"
+                className="rounded-lg bg-linear-to-r from-orange-500 to-pink-500 px-6 py-3 text-sm font-semibold text-white"
               >
                 Explore Technologies
               </a>

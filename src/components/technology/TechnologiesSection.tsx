@@ -1,7 +1,7 @@
 import Container from "../common/Container";
 import { technologies } from "../../data/technologies";
 import TechnologyGrid from "./TechnologyGrid";
-import StackSidebar from "./StackSlidebar";
+import StackSidebar from "./StackSidebar";
 import { useStack } from "../../hooks/useStack";
 
 const TechnologiesSection = () => {
@@ -22,7 +22,7 @@ const TechnologiesSection = () => {
         <div className="mb-10">
           <h2 className="text-4xl font-bold text-slate-800">
             Explore the{" "}
-            <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
               Technologies
             </span>
           </h2>
