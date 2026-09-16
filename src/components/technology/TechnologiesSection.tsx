@@ -1,7 +1,7 @@
 import Container from "../common/Container";
 import { technologies } from "../../data/technologies";
 import TechnologyGrid from "./TechnologyGrid";
-import StackSidebar from "./StackSidebar";
+import StackSidebar from "./StackSlidebar";
 import { useStack } from "../../hooks/useStack";
 
 const TechnologiesSection = () => {

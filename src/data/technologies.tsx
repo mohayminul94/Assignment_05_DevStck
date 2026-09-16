@@ -1,0 +1,148 @@
+import type { Technology } from "../types/technology";
+
+export const technologies: Technology[] = [
+  {
+    id: 1,
+    name: "React",
+    description:
+      "A declarative, component-based JavaScript library for building modern user interfaces.",
+    category: "Frontend",
+    level: "Beginner-Friendly",
+    rating: 4.9,
+    badge: "Popular",
+    badgeType: "blue",
+    icon: "react",
+  },
+  {
+    id: 2,
+    name: "Vue.js",
+    description:
+      "An approachable, performant, and versatile framework for building web user interfaces.",
+    category: "Frontend",
+    level: "Beginner-Friendly",
+    rating: 4.8,
+    badge: "Versatile",
+    badgeType: "green",
+    icon: "vue",
+  },
+  {
+    id: 3,
+    name: "Svelte",
+    description:
+      "A compiler that enhances web apps with compile-time reactivity and zero virtual DOM overhead.",
+    category: "Frontend",
+    level: "Intermediate",
+    rating: 4.8,
+    badge: "Fast",
+    badgeType: "orange",
+    icon: "svelte",
+  },
+  {
+    id: 4,
+    name: "Next.js",
+    description:
+      "The React framework for full-stack web applications with hybrid rendering capabilities.",
+    category: "Frontend",
+    level: "Intermediate",
+    rating: 4.9,
+    badge: "Robust",
+    badgeType: "blue",
+    icon: "next",
+  },
+  {
+    id: 5,
+    name: "Node.js",
+    description:
+      "An asynchronous event-driven JavaScript runtime built for scalable server-side applications.",
+    category: "Backend",
+    level: "Intermediate",
+    rating: 4.8,
+    badge: "Standard",
+    badgeType: "green",
+    icon: "node",
+  },
+  {
+    id: 6,
+    name: "PostgreSQL",
+    description:
+      "A powerful open-source object-relational database system with strong reliability.",
+    category: "Database",
+    level: "Intermediate",
+    rating: 4.9,
+    badge: "Top SQL",
+    badgeType: "blue",
+    icon: "postgres",
+  },
+  {
+    id: 7,
+    name: "Redis",
+    description:
+      "An in-memory data structure store used as a database, cache, and message broker.",
+    category: "Database",
+    level: "Intermediate",
+    rating: 4.8,
+    badge: "Cache",
+    badgeType: "red",
+    icon: "redis",
+  },
+  {
+    id: 8,
+    name: "JavaScript",
+    description:
+      "The versatile, ubiquitous scripting language powering modern web applications.",
+    category: "Language",
+    level: "Beginner-Friendly",
+    rating: 4.9,
+    badge: "Ubiquitous",
+    badgeType: "yellow",
+    icon: "javascript",
+  },
+  {
+    id: 9,
+    name: "TypeScript",
+    description:
+      "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    category: "Language",
+    level: "Intermediate",
+    rating: 4.9,
+    badge: "Essential",
+    badgeType: "blue",
+    icon: "typescript",
+  },
+  {
+    id: 10,
+    name: "Java",
+    description:
+      "A secure, object-oriented programming language designed for portability and scale.",
+    category: "Language",
+    level: "Intermediate",
+    rating: 4.6,
+    badge: "Robust",
+    badgeType: "blue",
+    icon: "java",
+  },
+  {
+    id: 11,
+    name: "Tailwind CSS",
+    description:
+      "A utility-first CSS framework packed with classes that can be composed into custom designs.",
+    category: "Styling",
+    level: "Beginner-Friendly",
+    rating: 4.9,
+    badge: "Modern",
+    badgeType: "blue",
+    icon: "tailwind",
+  },
+  {
+    id: 12,
+    name: "Docker",
+    description:
+      "A platform designed to build, share, and run containerized applications reliably.",
+    category: "DevOps",
+    level: "Intermediate",
+    rating: 4.9,
+    badge: "Containers",
+    badgeType: "blue",
+    icon: "docker",
+  },
+];
