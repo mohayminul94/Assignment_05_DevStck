@@ -1,10 +1,11 @@
-function App() {
+import Navbar from "./components/layout/Navbar";
 
+function App() {
   return (
     <>
-    hello world
+      <Navbar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
