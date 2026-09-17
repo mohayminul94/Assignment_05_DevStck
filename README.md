@@ -12,7 +12,7 @@ A web application designed to help developers explore, compare, and build their 
 ### 🚀 Technologies Used
 * **React**: For component-based UI architecture
 * **Tailwind CSS**: For modern, utility-first styling
-* **JavaScript (ES6+)**: Core application logic
+* **React (vite)**: Core application logic
 * **JSON**: Data store for tech stack information
 
 ---
